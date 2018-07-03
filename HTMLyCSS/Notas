@@ -29,7 +29,8 @@ ms-windows server	linux
 ISS					Apache2
 SQL server			MySQL - PostgreSQL
 
-Ejercicio1:
-codificación de caracteres, no tuve problemas sin usar el "<meta charset=”utf-8”>"
-head y body para que es cada uno
+Ejercicio1 dudas:
+1. codificación de caracteres, no tuve problemas sin usar el "<meta charset=”utf-8”>"
+2. head y body para que es cada uno (donde poner parrafos titulos subtitulos,etc)
+
 
