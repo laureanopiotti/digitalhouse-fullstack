@@ -1,0 +1,69 @@
+-----------------------------------------------------------
+    Herramientas
+-----------------------------------------------------------
+Campus:
+campus.digitalhouse.com -> pw: Digitalhouse860!
+Slack:
+fullstacktn2018.slack.com
+
+-----------------------------------------------------------
+    Profesores
+-----------------------------------------------------------
+dfuentes@digitalhouse.com
+rodo@digitalhouse.com
+
+-----------------------------------------------------------
+    Redes
+-----------------------------------------------------------
+TCP/IP -> 	Modelo OSI
+			Aplicacion
+			Presentacion
+			Sesion
+			Transporte
+			Red
+			Enlace
+			Fisica
+
+How IP - NAT works?
+https://www.youtube.com/watch?v=aor29pGhlFE
+https://www.youtube.com/watch?v=aor29pGhlFE
+Que es DNS?
+https://www.youtube.com/watch?v=Rck3BALhI5c
+Que es TCP/IP?
+https://www.youtube.com/watch?v=PpsEaqJV_A0
+
+-----------------------------------------------------------
+    HTML & CSS
+-----------------------------------------------------------
+hypertexto -> texto y multimedia
+
+privativo			libre
+---------------------------
+ms-windows server	linux
+ISS					Apache2
+SQL server			MySQL - PostgreSQL
+
+Clase1:
+	- codificación de caracteres, no tuve problemas sin usar el "<meta charset=”utf-8”>". Usar siempre adentro de <head> segun los estandares de la W3C.
+	- head y body para que es cada uno (donde poner parrafos titulos subtitulos,etc)
+	- head:
+	Informacion concreta de la pagina, descripcion de la pagina: autor, palabras clave(?). Referencias hacia informacion, link?. Cosas que no se van a visualizar en el documento en si.
+	- body:
+	Es lo que se va a observar en la pagina. (best practices)
+	- index.html o default.html -> si el browser apunta a una carpeta busca esos dos nombres primero
+	- <h1> solo se usa 1 vez sola por recomendacion de la W3C.
+	- <br> salto de linea
+	- <hr> dibuja una linea
+	- <!-- comentario --> para hacer comentarios en HTML
+	- /* comentario */ para hacer comentarios en CSS
+	- para CSS carpeta dentro del proyecto -> css -> estilos.css
+	- para Javasript carpeta dentro del proyecto -> js
+	- para linkear archivo css a un html <link href="$cssstylefile_PATH" rel="stylesheet"> adentro del HEAD
+	- Como identar un solo elemento? (por ejemplo una lista) usando css
+		Usar class? (Lo veo mas adelante)
+	- Para splitear sublime en dos -> ALT + SHIFT + 2
+	- Buscar fuentes en google, me da el codigo de html para hacerle referencia, lo pongo en el head
+	- Por defecto, font-size es 16px
+	- Valores de una propiedad -> buscare en google o en w3schools.com
+	- Para buscar colores -> https://www.materialpalette.com/colors Formato de codigo de color -> hexadecimal
+	- Para agregar videos, imagenes, audio -> <audio> <video> <img>
