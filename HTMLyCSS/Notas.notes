@@ -35,6 +35,8 @@ https://www.youtube.com/watch?v=PpsEaqJV_A0
 -----------------------------------------------------------
     HTML & CSS
 -----------------------------------------------------------
+HTML -> Contenido
+CSS -> Presnetacion
 hypertexto -> texto y multimedia
 
 privativo			libre
@@ -67,3 +69,7 @@ Clase1:
 	- Valores de una propiedad -> buscare en google o en w3schools.com
 	- Para buscar colores -> https://www.materialpalette.com/colors Formato de codigo de color -> hexadecimal
 	- Para agregar videos, imagenes, audio -> <audio> <video> <img>
+
+Clase2:
+	- enlance externo <a> si el target es "_blank" abre una nueva pestana, "_self" en la misma pestana
+	- 

@@ -1,5 +1,6 @@
 
 body{
+	background-color: pink;
 	font-family: sans-serif;
 	font-weight: normal
 }
@@ -15,6 +16,8 @@ h2{
 	font-weight: lighter;
 	font-size: 25px
 }
+
+
 
 p{
 	text-align: justify;
