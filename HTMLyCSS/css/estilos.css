@@ -11,13 +11,13 @@ h1{
 }
 
 h2{
-	color: #1a237e;
-	text-decoration: underline;
 	font-weight: lighter;
 	font-size: 25px
 }
 
-
+ul {
+	align-self: center;
+}
 
 p{
 	text-align: justify;
@@ -25,10 +25,4 @@ p{
 	line-height: 23px;
 }
 
-img {
-  background: #eaeaed;
-  border: 1px solid #9799a7;
-  float: right;
-  margin: 8px 0 0 20px;
-  padding: 4px;
-  width: 200px;
+

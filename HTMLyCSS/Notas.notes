@@ -66,10 +66,19 @@ Clase1:
 	- Para splitear sublime en dos -> ALT + SHIFT + 2
 	- Buscar fuentes en google, me da el codigo de html para hacerle referencia, lo pongo en el head
 	- Por defecto, font-size es 16px
-	- Valores de una propiedad -> buscare en google o en w3schools.com
-	- Para buscar colores -> https://www.materialpalette.com/colors Formato de codigo de color -> hexadecimal
+	- Valores de una propiedad -> buscare en google o en !!w3schools.com!!
+	- Para buscar colores -> !!https://www.materialpalette.com/colors!! Formato de codigo de color -> hexadecimal
 	- Para agregar videos, imagenes, audio -> <audio> <video> <img>
 
 Clase2:
 	- enlance externo <a> si el target es "_blank" abre una nueva pestana, "_self" en la misma pestana
-	- 
+	- para poner asunto en el mail -> ?subject=Mensaje Desde el Sitio Web
+	- para anclas locales no olvidarse de poner al elemento el id=""
+	- para buscar iconos -> !!https://www.iconfinder.com/!! 
+	- para cuando paso el mouse arriba de un enlance <a title=" ">
+	- propiedades de video a tener en cuenta:
+		- auto play -> apenas carga la pagina, se reproduce
+		- loop -> el video se repite
+		- controls -> podes manejar (pausa, play, volumen, etc)
+	- estudiar tag semanticos html5
+	- creacion de formularios en html5
