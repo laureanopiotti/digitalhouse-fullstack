@@ -69,16 +69,38 @@ Clase1:
 	- Valores de una propiedad -> buscare en google o en !!w3schools.com!!
 	- Para buscar colores -> !!https://www.materialpalette.com/colors!! Formato de codigo de color -> hexadecimal
 	- Para agregar videos, imagenes, audio -> <audio> <video> <img>
+	- IMAGENES:
+		- The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+		- The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element.
 
 Clase2:
 	- enlance externo <a> si el target es "_blank" abre una nueva pestana, "_self" en la misma pestana
-	- para poner asunto en el mail -> ?subject=Mensaje Desde el Sitio Web
+	- para poner asunto en el mail -> <a href="mailto:dfuentes@digitalhouse.com" ?subject= "Esto es sólo una prueba del asunto del correo">Contactame</a>
+
 	- para anclas locales no olvidarse de poner al elemento el id=""
 	- para buscar iconos -> !!https://www.iconfinder.com/!! 
 	- para cuando paso el mouse arriba de un enlance <a title=" ">
-	- propiedades de video a tener en cuenta:
+	- propiedades de video a tener en cuenta:2
 		- auto play -> apenas carga la pagina, se reproduce
 		- loop -> el video se repite
 		- controls -> podes manejar (pausa, play, volumen, etc)
 	- estudiar tag semanticos html5
 	- creacion de formularios en html5
+	- paginas para buscar fondos:
+		!!https://subtlepatterns.com/!!
+		!!http://thepatternlibrary.com/!!
+		!!http://www.colourlovers.com/patterns!!
+	- ver colores RGBA !!http://www.hexcolortool.com/!!
+	- Add the "display: block" property is very important. Otherwise you can't center the element.
+
+
+
+
+
+
+
+
+
+
+
+

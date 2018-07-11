@@ -1,13 +1,18 @@
 
 body{
-	background-color: pink;
+	background-color: lightyellow;
 	font-family: sans-serif;
-	font-weight: normal
+	font-weight: normal;
+	background-image: url(../img/lashes.png);
+	background-attachment: fixed;
+	background-position: center center;
+	
 }
 
 h1{
 	text-align: center;
-	font-style: italic
+	font-style: italic;
+	color: rgba(254, 47, 140, 0.84);
 }
 
 h2{
@@ -25,4 +30,14 @@ p{
 	line-height: 23px;
 }
 
+.destacado {
+	background-color:violet;
+	color: yellow;
+	font-size:22px;
+	line-height: 32px;
+}
 
+video{
+	display: block;
+	margin: 0 auto;
+}	

@@ -1,0 +1,31 @@
+body {
+  /*  background-color: aquamarine; */
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/fondo.png');
+    background-repeat: repeat;
+
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.titulo-helados {
+    font-size: 18px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.destacado {
+    font-size: 28px;
+    color: blue;
+    background-color: rgba(250, 107, 255, 0.8);
+}
+
+.redes {
+    list-style-type: none;
+}
+
+.redes li a img {
+    max-width: 95px;;
+}
