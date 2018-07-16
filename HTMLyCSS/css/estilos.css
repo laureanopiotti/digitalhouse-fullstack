@@ -1,4 +1,191 @@
+* {
+	box-sizing: border-box;
+}
 
+
+body {
+	background-color: black;
+}
+
+header{
+	background-color: white;
+	padding:5px 0px;
+	font-family: 'Merienda', cursive;
+	display: block;
+} 
+
+h1{
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+h2{
+	color:white;
+}
+
+img.ico_titulo1 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 500px;
+	top: 25px;
+}
+
+img.ico_titulo2 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 500px;
+	top: 25px;
+	}
+
+section.menu{
+	background-color: black; 
+	font-family: 'Merienda', cursive;
+}
+
+section.menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden; /*overflow:hidden is added to the ul element to prevent li elements from going outside of the list.*/
+	border: 1px solid white;
+}
+
+section.menu li{
+	float:left;
+	border-right: 1px solid white;
+}
+section.menu li a {
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+
+section.menu li a:hover{
+	background-color:white;
+	color: black;
+}
+
+
+section.entradas, section.postres{
+	background-color:white;
+	font-family: 'Merienda', cursive;
+	color: black;
+	width: 40%;
+	margin-left:100px;
+	margin-top:50px;
+	border-radius: 5px;
+	float: left;
+}
+
+section.entradas h2, section.postres h2{
+	border: 1px dashed black;
+	border-radius:50%;
+	padding-top:15px;
+	text-align: center;
+	color:black;
+}
+
+section.entradas p, section.postres p{
+	font-size: 12px;
+	text-align: justify;
+	margin:0px 30px;
+
+}
+
+section.entradas ul, section.postres ul{
+	padding:15px 0;
+	width: 15%;
+	margin: 0 auto;
+}
+
+section.platos, section.bebidas{
+	background-color:white;
+	font-family: 'Merienda', cursive;
+	color: black;
+	width: 40%;
+	border-radius: 5px;
+	margin-right: 100px;
+	margin-top:50px;
+	float: right;	
+}
+
+section.platos h2, section.bebidas h2{
+	border: 1px dashed black;
+	border-radius:50%;
+	padding-top:15px;
+	text-align: center;
+	color:black;
+}
+
+section.platos p, section.bebidas p{
+	font-size: 12px;
+	text-align: justify;
+	margin:0px 30px;
+
+}
+
+section.platos ul, section.bebidas ul {
+	padding:15px 0;
+	width: 15%;
+	margin: 0 auto;
+}
+
+img.ico_h2 {
+	width: 25px;
+	height: 25px;
+	align-content: top-left;
+	margin: 5px 0px 0px 5px;
+}
+
+section.contacto, section.redes-sociales{
+	clear: both;
+	padding-top: 50px;
+	background-color: transparent;
+	font-family: 'Merienda', cursive;
+	font-size: 20px;
+}
+
+section.contacto h2, section.redes-sociales h2{
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding:5px 0px;
+
+}
+
+section.contacto ul {
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+
+section.contacto li {
+	display: inline;
+	padding:0px 20px;
+}
+
+section.contacto li:hover {
+	font-size: 150%;
+	color: white;
+	list-style-type: none;
+	text-align: justify;
+}
+/*img.ico_titulo2 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 500px;
+	top: 25px;
+	}
+*/
+/* {
+	box-sizing: border-box;
+}
 body{
 	background-color: lightyellow;
 	font-family: sans-serif;
@@ -6,13 +193,77 @@ body{
 	background-image: url(../img/lashes.png);
 	background-attachment: fixed;
 	background-position: center center;
-	
+	display: inline-block;
+	margin: 0 auto;
+
 }
 
 h1{
 	text-align: center;
 	font-style: italic;
 	color: rgba(254, 47, 140, 0.84);
+}
+
+
+.seccion-enlaces{
+	width: 300px;
+	float: left;
+
+}
+
+.seccion-multimedia{
+	width: 630px;
+	float: right;
+
+}
+
+.pie-de-pagina {
+	clear:both;
+	margin: 0;
+}
+
+.contactoloco{
+	float: left;
+	display: inline-block;
+	padding-right:50px;
+
+
+}
+
+.contactoloco1{
+	display: inline-block;
+}
+header{
+	background-color: rgba(255,255,0,0.5);
+	border-bottom: 10px solid black;
+}
+
+.seccion1-comidas{
+	background-color:rgba(0,255,255,0.5);
+}
+
+.seccion2-contacto{
+	background-color:rgba(0,0,255,0.5);
+	margin-top:100px;
+}
+
+
+.instagram-image {
+	margin-left: 500px;
+	padding-right: 20px;
+	display: block;
+	float:left;
+}
+
+.facebook-image {
+	float:left;
+	display: block;
+	padding-right: 20px;
+}
+
+.twitter-image {
+	display: block;
+
 }
 
 h2{
@@ -37,7 +288,98 @@ p{
 	line-height: 32px;
 }
 
+#pedidos {
+	text-align: left;
+}
+
+.input-picture{
+	text-align: right;
+	margin-left:30%;
+}
+.gg {
+	resize: both;
+}
+
+
+}
+
+/*
+section {
+	width: 960px;
+	padding: 30px;
+	border: 5px dotted blue;
+	margin: 50%; 
+}
+
+.alla{
+	background-color: yellow;
+}
+
+.balla {
+	background-color:red;
+}
+
+textarea {
+	resize: vertical;
+
+}
+
+input, textarea{
+	background-color: yellow;
+
+}
+
+input:focus, textarea:focus {
+	background-color: white;
+	color:red;
+	text-decoration:blink;
+}
+
 video{
 	display: block;
 	margin: 0 auto;
 }	
+
+strong{
+	font-size: 30px;
+}
+
+
+em {
+	border:1px solid red;
+}
+
+mark {
+	background-color:yellow;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+img {
+	border:2px solid pink;
+	border-radius: 5px;
+	transition: transform(0.8s)
+2}
+
+img:hover{
+	border:4px solid pink;
+	border-radius: 20px;
+	transform: scale(1.2);
+}
+
+button {
+	margin-left: 50px;
+}
+
+
+main {
+	min-width: 100vw;
+}
+*/
