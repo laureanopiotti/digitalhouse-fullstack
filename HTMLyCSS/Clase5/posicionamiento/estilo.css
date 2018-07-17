@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.caja {
+  margin-top: 100px;  
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background:#53CAFF;
+  color: white;
+  padding: 50px;
+  border: solid 5px #34A853;
+  border-radius: 50%;
+}
+
+#dos {
+  /*Quite el comentario a una y se lo coloca a las otras y vea lo que pasa*/  
+  /*position: absolute;*/
+  /*position: fixed;*/
+  /*position: static;*/
+  /*position: sticky;*/
+  position: relative;
+  top: 40px;
+  left: 80px;
+  background: #EA4335;
+  /*Quite el comentario y observe lo que pasa*/
+  /*float: left;*/
+  
+}
+
+#uno{
+  
+    background: #4285F4;
+
+}
+#tres{
+  
+    background: #FBBC05;
+
+}
+#cuatro{
+  
+    background: #4285F4;
+
+}
+#cinco{
+  
+    background: #34A853;
+
+}

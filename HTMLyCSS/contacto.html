@@ -1,73 +1,79 @@
-<DOCTYPE html>
-	<html>
+ <!doctype html>
+<html>
 	<head>
-		<meta charset=”utf 8”>
 		<title>Contacto</title>
+		<meta charset="utf-8">
 		<link href="css/estilos.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
 	</head>
 
 	<body>
-		<h1 id="pedidos">Formulario de consultas</h1>
-		<fieldset>
-			<form action="" method="post">
-					<label class="resize-loco" for="firstname">First name:</label>
-					<textarea name="firstname" placeholder="firstname" required> </textarea>
-					<label>Last name:</label>
-					<input type="text" name="lastname" placeholder="lastname" required>
-					<hr>
-					<label for="email">email</label>
-					<input type="email" name="email" placeholder="email@domain" required>
-					<hr>
-					<label for="subject-message">Message subject</label>
-					<select name="subject-message">
-						<option value="option1"> Automotores</option>
-						<option value="option2"> Inmovilaria</option>
-						<option value="option3"> Otros</option>
+		<main>
+			<header>
+				<img src="iconos/death_star.png" alt="death_star" class="ico_titulo1"></img>
+				<h1 id="home">Bienvenidos a Hasu</h1>
+				<img src="iconos/death_star.png" alt="death_star" class="ico_titulo2"></img>
+			</header>
+
+			<section class="menu">
+				<nav>
+					<ul>
+						<li><a href="index.html#home" title="Inicio">Inicio</a></li>
+						<li><a href="index.html#contacto" title="Contactanos">Contacto</a></li>
+						<li><a href="galeria.html" title="Galeria de fotos" target="_self">Galeria</a></li>
+						<li style="float:right"><a href="contacto.html" title="Escribinos" target="_self">Escribinos!</a></li>
+					</ul>
+				</nav>
+			</section>
+
+			<section class=form-title>
+				<h2>Escribinos!</h2>
+			</section>
+
+			<section class="form">
+				<form action="" method="post">
+				<article>
+					<label for="firstname">Nombre:</label>
+					<input type="text" name="firstname" placeholder="nombre" required autofocus>
+					<label for="lastname" style="padding-left:135px;">Apellido:</label>
+ 					<input type="text" name="lastname" placeholder="apellido" required>
+ 				</article>
+				<article>
+					<label>Género:</label>
+					<input type="radio" name="gender" value="male"><label for="gender" style="font-size:12px;">Hombre</label>
+				    <input type="radio" name="gender" value="female"><label for="gender" style="font-size:12px;">Mujer</label>
+				    <input type="radio" name="gender" value="female"><label for="gender" style="font-size:12px;">Otro</label>
+				    <label style="padding-left: 100px;">email:</label>
+					<input type="text" name="email" placeholder="email@dominio.com" required>
+				</article>
+				<article>
+					<label for="subject">Asunto:</label>
+					<select name="subject">
+						<option value="consulta">Consulta</option>
+						<option value="reserva">Reserva</option>
+						<option value="queja">Quejas</option>
 					</select>
-					<label class="input-picture">Input your picture</label>
-					<input class="input-picture" type=”file” name=”tu_foto”>
-					<hr>
-					<legend for="genero">Género</legend>
-					<input type="radio" name="genero">
-					<label for="genero">Femenino</label>
-					<input type="radio" name="genero">
-					<label for="genero">Masculino</label>
-					<input type="radio" name="genero">
-					<label for="genero">Otro</label>
-					<hr>
-					<legend for="hobbies">Pasatiempo</legend>
-					<input type="checkbox" name="hobbies">
-					<label for="hobbies">Futbol</label>
-					<input type="checkbox" name="hobbies">
-					<label for="hobbies">Basket</label>
-					<input type="checkbox" name="hobbies">
-					<label for="hobbies">Natacion</label>
-					<input type="checkbox" name="hobbies">
-					<label for="hobbies">Running</label>
-					<input type="checkbox" name="hobbies">
-					<label for="hobbies">Rugby</label>
-					<input type="checkbox" name="hobbies">
-					<label for="hobbies">Gym</label>
-					<hr>
-					<label for="comments">Comentarios</label>
-					<input type="textarea" name="comments" required>
-		</fieldset>
-					<br>
-					<button type="submit">Enviar</button>
-					<button type="reset">Borrar</button>
-		 <!-- First name:<br>
-		  <input type="text" name="firstname"><br>
-		  Last name:<br>
-		  <input type="text" name="lastname">
-		 <br>
-		 <input type="radio" name="gender" value="male" checked> Male<br>
-		 <input type="radio" name="gender" value="female"> Female<br>
-		 <input type="radio" name="gender" value="other"> Other-->
+					<label for="pasatiempos" style="padding-left:195px;">Pasatiempos:</label>
+					<input type="checkbox" name="deporte"><label for="deporte" style="font-size:12px;">Deporte</label>
+					<input type="checkbox" name="arte"><label for="arte" style="font-size:12px;">Arte</label>
+					<input type="checkbox" name="videojuegos"><label for="videojuegos" style="font-size:12px;">Videojuegos</label>
+					<input type="checkbox" name="social"><label for="social" style="font-size:12px;">Social</label>
+					<input type="checkbox" name="Otro"><label for="otro" style="font-size:12px;">Otro</label>
+				</article>
+				<article>
+					<label for="comments">Comentarios:</label><br>
+					<textarea name="comments" required style="max-width: 100%;padding-right: 0px;max-height: 300px;"> </textarea>
+				</article>
+				<article>
+					<button type="submit" class="b1">Enviar</button> 
+					<button type="reset" class="b2">Borrar</button> 
+				</article>
+				</form>
+			</section>
 
-		</form>
-		<br>
-		<br>
-
+			<footer>
+				<span>Todos los derechos reservados ®</span>
+			</footer>
+		</main>
 	</body>
-
-	</html>
+</html>
