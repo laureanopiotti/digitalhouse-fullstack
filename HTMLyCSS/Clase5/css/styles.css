@@ -41,10 +41,13 @@ div ul {
 div ul li {
 	float: left;
 	margin-right: 30px;
+	transition: transform(0.8);
 }
 
 div ul li:hover {
 	text-decoration: underline;
+	transform: scale(1.2)
+
 }
 
 main {
@@ -73,6 +76,12 @@ section article{
 	bottom: 20px;
 	left:115px;
 	text-transform: uppercase;
+	transition: transform(0.8s);
+}
+
+.boton-vermas:hover{
+	transform: scale(1.2)
+
 }
 
 .nombre-producto {
