@@ -123,6 +123,12 @@ Clase4:
 		a:hover - a link when the user mouses over it
 		a:active - a link the moment it is clicked
 
+Clase6:
+	- Los porcentajes se dan directo con el padre contenedor del elemento
+	- em -> unidades de medida recomendados para usar con todo lo relacionado con la *tipografia*.
+	- Conversor em/px !!http://pxtoem.com/!!
+	- No olvidar poner <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 
 
 

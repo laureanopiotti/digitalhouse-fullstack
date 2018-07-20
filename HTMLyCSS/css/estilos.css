@@ -21,7 +21,6 @@ h1{
 	margin: auto;
 }
 
-
 img.ico_titulo1 {
 	width: 25px;
 	height: 25px;
@@ -38,12 +37,12 @@ img.ico_titulo2 {
 	top: 25px;
 	}
 
-section.menu{
+.menu{
 	background-image:url("../img/dark.png"); 
 	font-family: 'Merienda', cursive;
 }
 
-section.menu ul{
+.menu ul{
 	list-style-type: none;
 	margin: 0;
 	padding:0;
@@ -51,16 +50,16 @@ section.menu ul{
 	border: 1px solid white;
 }
 
-section.menu li{
+.menu ul li{
 	float:left;
 	border-right: 1px solid white;
 }
 
-section.menu li:last-child{
+.menu ul li:last-child{
 	border-right: none;
 	border-left: 1px solid white;
 }
-section.menu li a {
+.menu li a {
 	display: block;
 	color:white;
 	text-align: center;
@@ -68,7 +67,7 @@ section.menu li a {
 	text-decoration: none;
 }
 
-section.menu li a:hover {
+.menu li a:hover {
 	background-image: url("../img/spiration-light.png");
 	color: black;
 }
