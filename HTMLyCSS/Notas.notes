@@ -130,6 +130,11 @@ Clase6:
 	- No olvidar poner <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 
+Clase8:
+	- Usar normalized css !!Usar normalize (​https://necolas.github.io/normalize.css/​)
+	- Font awesone (iconos para redes sociales): 		!!<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	- !!https://flexbox.help/
+
 
 
 
