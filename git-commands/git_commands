@@ -1,0 +1,21 @@
+1
+git init 
+//crea el repositorio
+2
+git config user.name "hanSolo"
+//agrega nuestra identidad - username
+3
+git config user.email "hansolo@starwars.com"
+//agrega nuestra identidad - email
+4
+git remote add origin https://github.com/....
+//apunta al repositorio remoto
+5
+git add .
+//agrega todos los cambios al repo local
+6
+git commit -m 'mensaje del commit'
+//hito histórico - comitea los cambio hechos
+7
+git push origin master
+//manda los cambios al repositorio remoto
