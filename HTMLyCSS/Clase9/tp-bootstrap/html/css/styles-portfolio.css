@@ -1,0 +1,13 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+.titulo-container {
+	background-color: #2C3E50;
+}

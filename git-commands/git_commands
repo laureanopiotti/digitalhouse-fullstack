@@ -18,4 +18,4 @@ git commit -m 'mensaje del commit'
 //hito histórico - comitea los cambio hechos
 7
 git push origin master
-//manda los cambios al repositorio remoto
+//manda los cambios al repositorio remoto	
