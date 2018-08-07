@@ -2,10 +2,10 @@
 $nombre = "Laureano";
 $apellido = "Piotti";
 $dni = "39804028";
-$dia = 8;
+$dia = 5;
 $hoy = "";
-$monto = 5000;
-$cuotas = 10;
+$monto = 1000;
+$cuotas = 6;
 $porcentaje = 20;
 $monto_deuda = $monto + $monto * $porcentaje / 100;
 
