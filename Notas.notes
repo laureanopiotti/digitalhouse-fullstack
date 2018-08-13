@@ -144,9 +144,9 @@ Clase9:
 -----------------------------------------------------------
 	PHP
 -----------------------------------------------------------
-
-
-
+ 
+Clase5:
+	- Para los checkbox, si tengo varios. el name tiene que ir con "[]" para que se apendeen dentro del index. 
 
 
 
