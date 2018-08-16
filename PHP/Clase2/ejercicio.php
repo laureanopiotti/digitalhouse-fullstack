@@ -5,7 +5,8 @@ $Dni = 39804028;
 $Dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sábado","Domingo"];
 $DiaSeleccionado = "Lunes";
 $Evaluacion = ["Regular","Bueno","Excelente"];
-$EvaluacionProporcionada = $Evaluacion[0];
+$EvaluacionProporcionada = $Evaluacion[2];
+
 $Porcentaje = [10,20,30];
 $Resultado = "<h1>Estimado(a) " . $Nombre . " " . $Apellido . ", portador del DNI: ";
 $MensajeFelicitaciones = "";
