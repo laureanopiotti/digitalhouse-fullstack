@@ -20,7 +20,6 @@ echo $lalo->getNombre();
 
 echo $lalo->getPassword();
 
-echo '<br>';
 
 $lalo->setPassword('123');
 
